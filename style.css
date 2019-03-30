@@ -24,19 +24,19 @@ body {
   line-height: 1.5;
 }
 
-table { 
-  border-collapse: collapse; 
-  width: 100%; 
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
 
-th, 
-td { 
-  padding: 0.25em; 
-  text-align: center; 
+th,
+td {
+  padding: 0.25em;
+  text-align: center;
 }
 
-tbody tr:nth-child(odd) { 
-  background: var(--bg-color); 
+tbody tr:nth-child(odd) {
+  background: var(--bg-color);
 }
 
 input,
@@ -130,9 +130,9 @@ select {
   margin-right: 20px;
 }
 
-.input-control label { 
-  font-size: 12px; 
-  margin-bottom: 10px; 
+.input-control label {
+  font-size: 12px;
+  margin-bottom: 10px;
 }
 
 .table-list {
@@ -142,22 +142,22 @@ select {
   margin-bottom: 50px;
 }
 
-.table-list a { 
+.table-list a {
   color: var(--white-color);
   font-weight: bold;
   text-decoration: none;
 }
 
-.table-list table thead tr { 
+.table-list table thead tr {
   background: var(--green-primary);
   color: var(--white-color);
 }
 
-.table-list table thead tr th { 
+.table-list table thead tr th {
   font-weight: bold;
 }
 
-.table-list-data { 
+.table-list-data {
   background: var(--white-color);
   border-radius: 5px;
   margin-top: 16px;
@@ -169,7 +169,7 @@ select {
 }
 
 /* Buttons */
-.btn { 
+.btn {
   border: none;
   cursor: pointer;
   margin: 15px 0;
@@ -188,10 +188,10 @@ select {
   width: 300px;
 }
 
-.btn-main:hover { 
-  background-color: var(--green-secondary); 
+.btn-main:hover {
+  background-color: var(--green-secondary);
   box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, .1);
-  color: var(--white-color); 
+  color: var(--white-color);
 }
 
 .btn-delete {
@@ -202,7 +202,7 @@ select {
   padding: 8px 12px;
 }
 
-.btn-delete:hover { 
+.btn-delete:hover {
   opacity: .8;
 }
 
