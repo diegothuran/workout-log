@@ -4,6 +4,7 @@
   "description": "App that logs the hours from my physical activities",
   "main": "main.js",
   "scripts": {
+    "start": "browser-sync start --server --watch .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/maxmaccari/workout-log/issues"
   },
-  "homepage": "https://github.com/maxmaccari/workout-log#readme"
+  "homepage": "https://github.com/maxmaccari/workout-log#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  }
 }
